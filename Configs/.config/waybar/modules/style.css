@@ -3,8 +3,8 @@
     border-radius: 0px;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
-    font-size: ${s_fontpx}px;
-    min-height: 10px;
+    font-size: 14px;
+    min-height: 18px;
 }
 
 @import "themes/theme.css";
@@ -13,11 +13,16 @@ window#waybar {
     background: @bar-bg;
 }
 
+/*window#waybar {
+    background: transparent;
+}*/
+
 tooltip {
+    border: 2px solid @outline;
     background: @main-bg;
     color: @main-fg;
     border-radius: ${t_radius}px;
-    border-width: 0px;
+/*    border-width: 0px;*/
 }
 
 #workspaces button {
@@ -98,9 +103,11 @@ ${modules_ls}
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
-    margin: ${g_margin}px 0px ${g_margin}px 0px;
-    padding-left: ${g_paddin}px;
-    padding-right: ${g_paddin}px;
+    margin: 8px 0px 0px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: @outline solid 1.7px;
+    border-bottom: @outline solid 1.7px;
 }
 
 #workspaces,
@@ -109,12 +116,14 @@ ${modules_ls}
 }
 
 #custom-r_end {
+    border-right: @outline solid 1.7px;
     border-radius: 0px ${b_radius}px ${b_radius}px 0px;
     margin-right: ${e_margin}px;
     padding-right: ${e_paddin}px;
 }
 
 #custom-l_end {
+    border-left: @outline solid 1.7px;
     border-radius: ${b_radius}px 0px 0px ${b_radius}px;
     margin-left: ${e_margin}px;
     padding-left: ${e_paddin}px;

@@ -1,7 +1,8 @@
     "clock": {
-        "format": "{:%I:%M %p}",
-        "format-alt": "{:%R 󰃭 %d·%m·%y}",
+        "format": "{:%r}",
+        "format-alt": "{:%r   %d.%m.%y}",
         "tooltip-format": "<tt>{calendar}</tt>",
+        "interval": 1,
         "calendar": {
             "mode": "month",
             "mode-mon-col": 3,
@@ -21,4 +22,3 @@
             "on-scroll-down": "shift_down"
         }
     },
-

@@ -4,6 +4,7 @@ MenuBar=Disabled
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
 [General]
+RememberOpenedTabs=false
 ShowSelectionToggle=false
 ShowStatusBar=false
 Version=202
@@ -21,6 +22,9 @@ Places Icons Auto-resize=false
 Places Icons Static Size=16
 
 [KPropertiesDialog]
+1920x1080 screen: Height=579
+1920x1080 screen: Width=444
+1920x1080 screen: Window-Maximized=true
 2560x1080 screen: Window-Maximized=true
 
 [MainWindow]
@@ -35,7 +39,11 @@ ToolButtonStyle=IconOnly
 IconSize=16
 
 [PreviewSettings]
-Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,ffmpegthumbs
+Plugins=imagethumbnail,jpegthumbnail,svgthumbnail
+
+[Search]
+Location=Everywhere
 
 [Toolbar mainToolBar]
+IconSize=16
 ToolButtonStyle=IconOnly
