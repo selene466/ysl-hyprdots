@@ -122,4 +122,5 @@ cat $modules_dir/footer.jsonc >> $conf_file
 
 $ScrDir/wbarstylegen.sh
 
+sed -i 's/"format": "  ",/"format": " ",/g' ~/.config/waybar/config.jsonc
 
