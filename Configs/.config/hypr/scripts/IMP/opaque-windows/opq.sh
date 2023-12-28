@@ -1,1 +1,1 @@
-sed -i 's/windowrulev2 = opacity 0.8 0.8,class:$/windowrulev2 = opacity 1 1,class:$/g' ~/.config/hypr/windowrules.conf
+cp .config/hypr/scripts/IMP/opaque-windows/windowrules.conf .config/hypr/
