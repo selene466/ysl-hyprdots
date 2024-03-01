@@ -10,7 +10,7 @@ network-manager-applet
 bluez
 bluez-utils
 blueman
-sddm-git
+sddm
 qt5-wayland
 qt6-wayland
 qt5-quickcontrols
@@ -44,6 +44,7 @@ pamixer
 nwg-look
 kvantum
 qt5ct
+qt6ct
 firefox
 kitty
 neofetch
@@ -55,5 +56,7 @@ eza|zsh
 oh-my-zsh-git|zsh
 zsh-theme-powerlevel10k|zsh oh-my-zsh-git
 pokemon-colorscripts-git|zsh
+lsd|fish
+starship|fish
 hyprdots-ctl
 nwg-dock-hyprland-bin
