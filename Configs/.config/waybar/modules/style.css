@@ -36,7 +36,14 @@ tooltip {
     padding-${x3}: ${w_paddin}px;
     padding-${x4}: ${w_paddin}px;
     margin-${x4}: 0px;
+    margin-${x1}: ${w_margin}px;
+    margin-${x2}: ${w_margin}px;
+    margin-${x3}: 0px;
+    padding-${x3}: ${w_paddin}px;
+    padding-${x4}: ${w_paddin}px;
+    margin-${x4}: 0px;
     color: @main-fg;
+    animation: ws_normal 20s ease-in-out 1;
     animation: ws_normal 20s ease-in-out 1;
 }
 
@@ -49,11 +56,18 @@ tooltip {
     margin-${x4}: ${w_margin}px;
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+    margin-${x3}: ${w_margin}px;
+    padding-${x3}: ${w_padact}px;
+    padding-${x4}: ${w_padact}px;
+    margin-${x4}: ${w_margin}px;
+    animation: ws_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button:hover {
     background: @wb-hvr-bg;
     color: @wb-hvr-fg;
+    animation: ws_hover 20s ease-in-out 1;
     animation: ws_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -69,7 +83,14 @@ tooltip {
     padding-${x3}: ${w_paddin}px;
     padding-${x4}: ${w_paddin}px;
     margin-${x4}: 0px;
+    margin-${x1}: ${w_margin}px;
+    margin-${x2}: ${w_margin}px;
+    margin-${x3}: 0px;
+    padding-${x3}: ${w_paddin}px;
+    padding-${x4}: ${w_paddin}px;
+    margin-${x4}: 0px;
     color: @wb-color;
+    animation: tb_normal 20s ease-in-out 1;
     animation: tb_normal 20s ease-in-out 1;
 }
 
@@ -82,11 +103,18 @@ tooltip {
     margin-${x4}: ${w_margin}px;
     animation: tb_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+    margin-${x3}: ${w_margin}px;
+    padding-${x3}: ${w_padact}px;
+    padding-${x4}: ${w_padact}px;
+    margin-${x4}: ${w_margin}px;
+    animation: tb_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #taskbar button:hover {
     background: @wb-hvr-bg;
     color: @wb-hvr-color;
+    animation: tb_hover 20s ease-in-out 1;
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -131,10 +159,14 @@ ${modules_ls}
     border-radius: 0px;
     margin-${x4}: ${e_margin}px;
     padding-${x4}: ${e_paddin}px;
+    margin-${x4}: ${e_margin}px;
+    padding-${x4}: ${e_paddin}px;
 }
 
 #custom-sl_end {
     border-radius: 0px;
+    margin-${x3}: ${e_margin}px;
+    padding-${x3}: ${e_paddin}px;
     margin-${x3}: ${e_margin}px;
     padding-${x3}: ${e_paddin}px;
 }
@@ -143,9 +175,15 @@ ${modules_ls}
     border-radius: ${x1rc_radius}px ${x2rc_radius}px ${x3rc_radius}px ${x4rc_radius}px;
     margin-${x4}: ${e_margin}px;
     padding-${x4}: ${e_paddin}px;
+    border-radius: ${x1rc_radius}px ${x2rc_radius}px ${x3rc_radius}px ${x4rc_radius}px;
+    margin-${x4}: ${e_margin}px;
+    padding-${x4}: ${e_paddin}px;
 }
 
 #custom-rl_end {
+    border-radius: ${x1lc_radius}px ${x2lc_radius}px ${x3lc_radius}px ${x4lc_radius}px;
+    margin-${x3}: ${e_margin}px;
+    padding-${x3}: ${e_paddin}px;
     border-radius: ${x1lc_radius}px ${x2lc_radius}px ${x3lc_radius}px ${x4lc_radius}px;
     margin-${x3}: ${e_margin}px;
     padding-${x3}: ${e_paddin}px;
