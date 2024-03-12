@@ -2,8 +2,11 @@
 <div align = center><img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_banner.png"><br><br>
 </div>
 
-## Short Video Preview
+## Short Video Previews
+[<img src="https://img.youtube.com/vi/N7HTsyyBR3Q/maxresdefault.jpg">](https://youtu.be/N7HTsyyBR3Q)
 [<img src="https://img.youtube.com/vi/lvzLesF9u_o/maxresdefault.jpg">](https://youtu.be/lvzLesF9u_o)
+
+Note : You need to manually set soft links for nwg-dock and nwg-drawer css in the config folder for light/dark themes. And some env variables, preferences are set as per personal needs so modify accordingly.
 
 ## Installation
 
