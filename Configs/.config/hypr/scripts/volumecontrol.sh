@@ -93,5 +93,5 @@ case "${1}" in
     *) print_error ;;
 esac
 
-notify_vol
+# notify_vol
 

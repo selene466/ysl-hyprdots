@@ -1,5 +1,5 @@
 0|Catppuccin-Mocha|Catppuccin.catppuccin-vsc~Catppuccin Mocha|~/.config/swww/Catppuccin-Mocha/mahaprabhu-wallp.png
-1|Catppuccin-Latte|Catppuccin.catppuccin-vsc~Catppuccin Latte|~/.config/swww/Catppuccin-Latte/peakpx (22)-hald16-Latte.jpg
+1|Catppuccin-Latte|Catppuccin.catppuccin-vsc~Catppuccin Latte|~/.config/swww/Catppuccin-Latte/material_pastel_red.png
 0|Decay-Green|decaycs.decay~Decayce|~/.config/swww/Decay-Green/moments_before_desk.png
 0|Rose-Pine|mvllow.rose-pine~Rosé Pine|~/.config/swww/Rose-Pine/mountain_dragon_pink.jpg
 0|Tokyo-Night|enkia.tokyo-night~Tokyo Night Storm|~/.config/swww/Tokyo-Night/lowpoly_street.png
